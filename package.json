@@ -1,0 +1,13 @@
+{
+  "name": "atlas-avatar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Atlas interativo de Avatar em português, com cenários em camadas e navegação responsiva.",
+  "type": "module",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "start": "node serve.mjs",
+    "check": "node scripts/check-site.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

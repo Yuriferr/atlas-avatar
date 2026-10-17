@@ -1,0 +1,133 @@
+{
+  "method": "Built-in image_gen for transparent cutouts; original code-native SVG scene layers.",
+  "credits": "Original character imagery © Paramount / Nickelodeon. Cutouts adapted with AI. Decorative landscapes are original illustrations for this fan site, not official locations.",
+  "assets": [
+    {
+      "file": "pavi-geet-transparent.png",
+      "source": "pavi.jpg — official Paramount+ promotional still",
+      "prompt": "Use case: background-extraction. Edit target: supplied official animation still. Remove ONLY the orange background behind Pavi (the girl) and Geet (the cat monkey), preserving both characters together in EXACT same positions, facial expressions, line art, shading and color. Keep the small blue creature on her chest. Preserve the entire existing visible character silhouettes, including fine hair and ears. No new body parts. Crop canvas to the group with small transparent margin. Output a genuine transparent PNG with alpha, not a checkerboard. This is a faithful cutout for a parallax website. No text or backdrop."
+    },
+    {
+      "file": "aang-transparent.png",
+      "source": "aang-cut.webp — official Avatar Studios character art",
+      "prompt": "Use case: background-extraction. Edit target: official artwork of Aang. Remove ONLY the gray backdrop, temple and background. Keep Aang EXACTLY as drawn including original expression, pose, clothes, proportions and line art. Keep the white airbending swirl connected to his left hand. Do not redesign the character. Keep cropped edges as existing in original; do not invent body parts. Genuine transparent alpha PNG, no border, no text. Intended as a foreground cutout for a parallax website."
+    },
+    {
+      "file": "painted-sky.svg",
+      "method": "Original SVG illustration for layered parallax composition."
+    },
+    {
+      "file": "painted-far.svg",
+      "method": "Original SVG illustration for layered parallax composition."
+    },
+    {
+      "file": "painted-city.svg",
+      "method": "Original SVG illustration for layered parallax composition."
+    },
+    {
+      "file": "painted-foreground.svg",
+      "method": "Original SVG illustration for layered parallax composition."
+    },
+    {
+      "file": "painted-clouds.svg",
+      "method": "Original SVG illustration for layered parallax composition."
+    },
+    {
+      "file": "painted-petals.svg",
+      "method": "Original SVG illustration for layered parallax composition."
+    },
+    {
+      "file": "environment-water.png",
+      "method": "Built-in ImageGen; original illustrative environment, not official or canon.",
+      "prompt": "Use case: stylized-concept. Asset type: wide environmental background illustration for a Portuguese Avatar fan atlas. Beautiful 16:9 landscape, no characters, no lettering, no logos. Hand-painted 2D animation background with fine clean linework, gouache texture, soft atmospheric depth and carefully composed foreground framing. Bright cream daylight, pastel coral, sage mint, lavender shadows, warm yellow accents. Sophisticated cinematic anime environment with layered painted detail; inspired by the adventurous environments of Avatar and the colorful new Seven Havens direction. This is an original decorative landscape, not an official scene. Leave the middle upper third calm enough for a short heading. A luminous polar harbor beside a turquoise sea, elegant curved snow-and-ice architecture, pale blue glacier cliffs, delicate bridges, tiny coral sailboats in the distance, peach sunrise reflections, snow-covered foreground rocks. Broad view across a sheltered bay. No tropical vegetation.",
+      "active": false,
+      "note": "Earlier detailed landscape; no longer used in the site."
+    },
+    {
+      "file": "environment-earth.png",
+      "method": "Built-in ImageGen; original illustrative environment, not official or canon.",
+      "prompt": "Use case: stylized-concept. Asset type: wide environmental background illustration for a Portuguese Avatar fan atlas. Beautiful 16:9 landscape, no characters, no lettering, no logos. Hand-painted 2D animation background with fine clean linework, gouache texture, soft atmospheric depth and carefully composed foreground framing. Bright cream daylight, pastel coral, sage mint, lavender shadows, warm yellow accents. Sophisticated cinematic anime environment with layered painted detail; inspired by the adventurous environments of Avatar and the colorful new Seven Havens direction. This is an original decorative landscape, not an official scene. Leave the middle upper third calm enough for a short heading. An expansive lush mountain valley with terraced gardens and a coral-roofed walled East Asian fantasy city nestled beneath rounded jade cliffs. Lavender mountains recede into cream haze. A turquoise river curves through the valley. Richly detailed trees and foreground grasses, paper lanterns only in the far city.",
+      "active": false,
+      "note": "Earlier detailed landscape; no longer used in the site."
+    },
+    {
+      "file": "environment-fire.png",
+      "method": "Built-in ImageGen; original illustrative environment, not official or canon.",
+      "prompt": "Use case: stylized-concept. Asset type: wide environmental background illustration for a Portuguese Avatar fan atlas. Beautiful 16:9 landscape, no characters, no lettering, no logos. Hand-painted 2D animation background with fine clean linework, gouache texture, soft atmospheric depth and carefully composed foreground framing. Bright cream daylight, pastel coral, sage mint, lavender shadows, warm yellow accents. Sophisticated cinematic anime environment with layered painted detail; inspired by the adventurous environments of Avatar and the colorful new Seven Havens direction. This is an original decorative landscape, not an official scene. Leave the middle upper third calm enough for a short heading. A peaceful volcanic island archipelago at golden morning, coral red curved temple rooftops overlooking the sea, warm peach volcanic cliffs, distant dormant volcano, small ochre stone paths and yellow flowering trees. Colorful and welcoming, no destruction, no lava apocalypse, no night sky.",
+      "active": false,
+      "note": "Earlier detailed landscape; no longer used in the site."
+    },
+    {
+      "file": "environment-air.png",
+      "method": "Built-in ImageGen; original illustrative environment, not official or canon.",
+      "prompt": "Use case: stylized-concept. Asset type: wide environmental background illustration for a Portuguese Avatar fan atlas. Beautiful 16:9 landscape, no characters, no lettering, no logos. Hand-painted 2D animation background with fine clean linework, gouache texture, soft atmospheric depth and carefully composed foreground framing. Bright cream daylight, pastel coral, sage mint, lavender shadows, warm yellow accents. Sophisticated cinematic anime environment with layered painted detail; inspired by the adventurous environments of Avatar and the colorful new Seven Havens direction. This is an original decorative landscape, not an official scene. Leave the middle upper third calm enough for a short heading. A tranquil mountaintop monastery with elegant pale stone towers, ochre roofs and mint terraces perched on impossibly tall lavender rock pillars above a sea of soft clouds. Distant flying birds, airy cream sky, terracotta foreground ledge and a flowering branch. A feeling of freedom, wonder, bright open space.",
+      "active": false,
+      "note": "Earlier detailed landscape; no longer used in the site."
+    },
+    {
+      "file": "environment-water.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-water-base.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-water-foreground.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-earth.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-earth-base.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-earth-foreground.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-fire.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-fire-base.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-fire-foreground.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-air.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-air-base.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "environment-air-foreground.svg",
+      "active": true,
+      "method": "Original code-native vector illustration. Simple polygons and thematic flat colors, matching the cover."
+    },
+    {
+      "file": "hero-foreground-safe.svg",
+      "active": true,
+      "method": "Original geometric SVG foreground, registered to the 1600 × 900 scene. Continuous terrain conceals the lower character crop; overscan keeps canvas edges outside the viewport."
+    }
+  ]
+}

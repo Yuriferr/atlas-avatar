@@ -1,0 +1,103 @@
+Object.assign(SOURCES,{
+ studios:{label:'Personagens · Avatar Studios',url:'https://www.avatarstudiosofficial.com/characters/'},
+ timeline:{label:'Cronologia oficial · Avatar Studios',url:'https://www.avatarstudiosofficial.com/timeline/'},
+ rare:{label:'Dobras raras · Canal oficial Avatar',url:'https://www.youtube.com/watch?v=iXzXYbkR9rE'},
+ lessons:{label:'Lições de dobra · Canal oficial Avatar',url:'https://www.youtube.com/watch?v=C9U5zZ5luC8'},
+ jinora:{label:'Jinora e espiritualidade · Canal oficial Avatar',url:'https://www.youtube.com/watch?v=4hIFm3Nd4zI'},
+ bolin:{label:'Bolin e a lava · Canal oficial Avatar',url:'https://www.youtube.com/watch?v=zaYzAx5UU3M'},
+ appa:{label:'Appa · Nickelodeon',url:'https://www.nick.com/info-page/vltws7/appa'}
+});
+// Element of origin for Avatars; other entries indicate their demonstrated bending.
+const CAST=[
+ ['katara','Katara','agua','aang','Mestre da Água do Sul; ensina Aang e pratica cura.','Água, gelo, cura e sangue','katara-cut.webp','studios'],
+ ['pakku','Pakku','agua','aang','Mestre do Norte e integrante da Ordem da Lótus Branca.','Água e gelo',null,'aang1'],
+ ['hama','Hama','agua','aang','Sobrevivente da Tribo do Sul que apresenta a dobra de sangue.','Água, extração de água e sangue',null,'aang3'],
+ ['yue','Yue','nao','aang','Princesa da Água do Norte, ligada ao destino do Espírito da Lua.','Papel espiritual; não é dobradora',null,'aang1'],
+ ['korra','Korra','agua','korra','Avatar da Água do Sul; aprende a unir força e espiritualidade.','Avatar: quatro elementos; também metal','korra.jpeg','korra1'],
+ ['tonraq','Tonraq','agua','korra','Pai de Korra, lutador e liderança da Tribo da Água do Sul.','Água e gelo',null,'korra2'],
+ ['unalaq','Unalaq','agua','korra','Líder do Norte, central no conflito dos portais espirituais.','Água e purificação de espíritos',null,'korra2'],
+ ['amon','Amon / Noatak','agua','korra','O líder igualitário esconde sua própria condição de dobrador.','Água e sangue',null,'korra1'],
+ ['tarrlok','Tarrlok','agua','korra','Conselheiro da Cidade República e irmão de Noatak.','Água e sangue',null,'korra1'],
+ ['ming-hua','Ming-Hua','agua','korra','Integrante da Lótus Vermelha; usa água como braços em combate.','Água e gelo',null,'korra3'],
+ ['toph','Toph Beifong','terra','aang','Professora de Aang; desenvolve a dobra de metal.','Terra, metal e percepção sísmica','toph-cut.webp','studios'],
+ ['bumi-rei','Rei Bumi','terra','aang','Rei de Omashu e velho amigo de Aang.','Terra',null,'aang1'],
+ ['haru','Haru','terra','aang','Jovem dobrador que enfrenta a ocupação da Nação do Fogo.','Terra',null,'aang1'],
+ ['long-feng','Long Feng','terra','aang','Lidera os Dai Li e controla os bastidores de Ba Sing Se.','Terra',null,'aang2'],
+ ['bolin','Bolin','terra','korra','Irmão de Mako; descobre seu talento para a lava.','Terra e lava',null,'bolin'],
+ ['lin','Lin Beifong','terra','korra','Filha de Toph e chefe de polícia da Cidade República.','Terra, metal e percepção sísmica',null,'korra3'],
+ ['suyin','Suyin Beifong','terra','korra','Filha de Toph e fundadora da comunidade de Zaofu.','Terra e metal',null,'korra3'],
+ ['kuvira','Kuvira','terra','korra','Usa sua habilidade com metal para impor um projeto autoritário.','Terra e metal',null,'korra4'],
+ ['ghazan','Ghazan','terra','korra','Dobrador de lava da Lótus Vermelha.','Terra e lava',null,'rare'],
+ ['pavi','Pavi','terra','havens','Uma jovem dobradora de terra descobre sua identidade como Avatar.','Terra; nova encarnação do Avatar','pavi.jpg','havensPress'],
+ ['zuko','Zuko','fogo','aang','Príncipe exilado que se torna professor de Aang.','Fogo, redirecionamento e espadas','zuko-cut.webp','studios'],
+ ['iroh','Iroh','fogo','aang','Tio de Zuko e mestre que aprende com outras tradições.','Fogo e relâmpagos','iroh-official.webp','studios'],
+ ['azula','Azula','fogo','aang','Princesa reconhecida pelas chamas azuis e pelos relâmpagos.','Fogo azul e geração de relâmpagos','azula-official.webp','studios'],
+ ['ozai','Ozai','fogo','aang','Senhor do Fogo e principal adversário da jornada de Aang.','Fogo e geração de relâmpagos','ozai-official.webp','studios'],
+ ['jeong-jeong','Jeong Jeong','fogo','aang','Mestre da Lótus Branca que enfatiza disciplina e controle.','Fogo',null,'aang1'],
+ ['combustion-man','Homem Combustão','fogo','aang','Persegue a equipe com explosões concentradas à distância.','Combustão',null,'rare'],
+ ['mako','Mako','fogo','korra','Irmão de Bolin; atleta da pró-dobra e depois policial.','Fogo e geração de relâmpagos',null,'korra1'],
+ ['pli',"P’Li",'fogo','korra','Membro da Lótus Vermelha especializada em explosões.','Fogo e combustão',null,'rare'],
+ ['aang','Aang','ar','aang','Nômade do Ar e Avatar durante a Guerra dos Cem Anos.','Avatar: os quatro elementos','aang-cut.webp','studios'],
+ ['gyatso','Gyatso','ar','aang','Monge que cuida de Aang e orienta sua formação.','Ar',null,'lessons'],
+ ['tenzin','Tenzin','ar','korra','Filho de Aang; ensina Korra e preserva a cultura do ar.','Ar',null,'korra1'],
+ ['jinora','Jinora','ar','korra','Filha de Tenzin com forte conexão com o mundo espiritual.','Ar e projeção espiritual',null,'jinora'],
+ ['ikki','Ikki','ar','korra','Filha de Tenzin e parte da nova geração de nômades.','Ar',null,'korra4'],
+ ['meelo','Meelo','ar','korra','Filho de Tenzin, aprende e cresce ao lado das irmãs.','Ar',null,'korra4'],
+ ['kai','Kai','ar','korra','Novo dobrador encontrado na reconstrução da Nação do Ar.','Ar',null,'korra3'],
+ ['opal','Opal','ar','korra','Filha de Suyin; ganha dobra de ar após a Convergência.','Ar',null,'korra3'],
+ ['bumi-filho','Bumi, filho de Aang','ar','korra','Começa sem dobra e passa a dobrar ar após a Convergência.','Ar a partir do Livro 3',null,'korra3'],
+ ['zaheer','Zaheer','ar','korra','Líder da Lótus Vermelha; obtém ar e alcança o voo.','Ar e voo sem planador',null,'korra3'],
+ ['sokka','Sokka','nao','aang','Irmão de Katara; encontra soluções com estratégia e engenho.','Bumerangue, espada e planejamento','sokka-official.webp','studios'],
+ ['suki','Suki','nao','aang','Lidera as Guerreiras Kyoshi com técnica e coragem.','Leques, combate e bloqueio de chi','suki-official.webp','studios'],
+ ['tylee','Ty Lee','nao','aang','Acrobata que consegue interromper temporariamente o chi.','Acrobacia e bloqueio de chi','tylee-official.webp','studios'],
+ ['mai','Mai','nao','aang','Aliada de Azula, habilidosa com armas de arremesso.','Facas e projéteis',null,'characters'],
+ ['jet','Jet','nao','aang','Líder de um grupo de resistência com escolhas controversas.','Espadas-gancho',null,'aang1'],
+ ['piandao','Piandao','nao','aang','Mestre espadachim que ensina Sokka.','Espada e caligrafia',null,'aang3'],
+ ['asami','Asami Sato','nao','korra','Engenheira e piloto; integra a equipe de Korra.','Tecnologia, pilotagem e luva elétrica',null,'korra1'],
+ ['varrick','Varrick','nao','korra','Inventor e empresário envolvido nos conflitos de sua época.','Engenharia e invenções',null,'korra4'],
+ ['zhu-li','Zhu Li','nao','korra','Colaboradora de Varrick e participante decisiva de seus projetos.','Organização e operação de máquinas',null,'korra4'],
+ ['pema','Pema','nao','korra','Esposa de Tenzin e mãe de Jinora, Ikki, Meelo e Rohan.','Vida comunitária na Ilha do Templo do Ar',null,'korra1']
+].map(([id,name,element,era,text,skills,image,source])=>({id,name,element,era,text,skills,image,source}));
+const ERAS={aang:'A Lenda de Aang',korra:'A Lenda de Korra',havens:'Seven Havens'};
+const GROUPS={agua:'Água',terra:'Terra',fogo:'Fogo',ar:'Ar',nao:'Não dobradores'};
+const BENDING=[
+ ['agua','Água, gelo e vapor','Fundamento','Katara, Pakku, Korra','Mover água e mudar seu estado permite ondas, chicotes, paredes de gelo e névoa.','Aang · Livro 1','lessons'],
+ ['agua','Cura','Especialização','Katara','A água é usada para tratar ferimentos. Não é uma solução ilimitada para qualquer lesão.','Aang · Livro 1','katara'],
+ ['agua','Dobra de sangue','Técnica rara','Hama, Katara, Yakone, Tarrlok, Amon','Manipula a água no corpo. Hama depende da lua cheia; a linhagem de Yakone demonstra exceções a essa limitação.','Aang · Livro 3 / Korra · Livro 1','rare'],
+ ['agua','Água em plantas','Aplicação','Huu e os dobradores do pântano','Controla a água presente na vegetação; as plantas se movem como extensão da dobra.','Aang · Livro 2, O Pântano','rare'],
+ ['agua','Purificação espiritual','Técnica espiritual','Unalaq, Korra','Movimentos de água ajudam a acalmar espíritos corrompidos. Não equivale à dobra de energia.','Korra · Livro 2','korra2'],
+ ['terra','Rocha e solo','Fundamento','Toph, Rei Bumi, Haru','Modelar o terreno sustenta muralhas, plataformas e ataques. Postura e contato com o ambiente são centrais.','Aang · Livro 2','lessons'],
+ ['terra','Dobra de metal','Especialização','Toph, Lin, Suyin, Kuvira, Korra','Age nas partículas de terra presentes no metal. Metais muito puros, como a platina na série, oferecem um limite.','Aang · Livro 2 / Korra · Livros 1–4','rare'],
+ ['terra','Dobra de areia','Especialização','Dobradores do deserto, Toph','Controla grãos soltos e forma redemoinhos, úteis para navegar no deserto.','Aang · Livro 2, O Deserto','aang2'],
+ ['terra','Dobra de lava','Técnica rara','Bolin, Ghazan','Controla rocha derretida e pode alterar seu estado. É uma habilidade da terra; não exige dobrar fogo.','Korra · Livro 3','bolin'],
+ ['terra','Percepção sísmica','Percepção','Toph, Lin, Aang','Lê vibrações transmitidas pelo chão. Um alvo no ar não produz o mesmo sinal de contato.','Aang · Livro 2','lessons'],
+ ['fogo','Chamas e respiração','Fundamento','Zuko, Iroh, Aang, Mako','O fogo se liga à respiração e à energia. A lição dos dragões apresenta uma fonte além da raiva.','Aang · Livro 3, Os Mestres da Dobra de Fogo','lessons'],
+ ['fogo','Geração de relâmpagos','Especialização','Azula, Ozai, Iroh, Mako','Uma técnica de separação e condução de energia. Na era de Korra, também aparece no trabalho industrial.','Aang · Livros 2–3 / Korra · Livro 1','rare'],
+ ['fogo','Redirecionamento','Técnica','Iroh, Zuko, Aang','Conduz um relâmpago recebido pelo corpo e o libera. Gerar e redirecionar são habilidades distintas.','Aang · Livro 2, Trabalho Amargo','zuko'],
+ ['fogo','Combustão','Técnica rara','Homem Combustão, P’Li','Concentra energia em explosões à distância. Não constitui um quinto elemento.','Aang · Livro 3 / Korra · Livro 3','rare'],
+ ['ar','Correntes, vórtices e defesa','Fundamento','Aang, Tenzin, Jinora','Redirecionar o movimento e criar distância favorece esquiva, proteção e deslocamento.','Aang · Livro 1 / Korra · Livro 1','lessons'],
+ ['ar','Esfera de ar e planador','Aplicação','Aang, Tenzin','A esfera sustenta deslocamentos rápidos. O planador aproveita correntes e não equivale ao voo sem apoio.','Aang · Livro 1','lessons'],
+ ['ar','Voo sem planador','Técnica rara','Guru Laghima, Zaheer','Associado ao desprendimento dos vínculos terrenos. Zaheer alcança essa habilidade no Livro 3.','Korra · Livro 3, Entre no Vazio','korra3'],
+ ['ar','Projeção espiritual','Técnica espiritual','Jinora','Permite projetar o espírito para além do corpo. Sua afinidade espiritual é tão importante quanto o treinamento.','Korra · Livros 2–3','jinora'],
+ ['especial','Dobra de energia','Além dos quatro elementos','Tartarugas-leão, Aang, Korra','Lida com a energia de um ser. Aang recebe esse conhecimento de uma tartaruga-leão antes de enfrentar Ozai.','Aang · Final / Korra','aang3']
+].map(([element,name,type,users,text,episode,source],i)=>({id:'tecnica-'+(i+1),element,name,type,users,text,episode,source}));
+const CREATURES=[
+ ['appa','Appa','companheiros','Bisão voador','Companheiro de Aang; usa dobra de ar para voar.','appa-cut.webp','appa','Aang · desde O Menino no Iceberg'],
+ ['momo','Momo','companheiros','Lêmure voador','Curioso e ágil, acompanha a equipe. Voar não o torna dobrador.','momo-official.webp','studios','Aang · O Templo de Ar do Sul'],
+ ['naga','Naga','companheiros','Ursa-cão polar','Companheira de Korra, serve de montaria e ajuda a encontrar seus amigos.',null,'korra1','Korra · desde o Livro 1'],
+ ['pabu','Pabu','companheiros','Furão-de-fogo','Pequeno companheiro de Bolin. O nome da espécie não indica que ele dobra fogo.',null,'korra1','Korra · desde o Livro 1'],
+ ['geet','Geet','companheiros','Gato-macaco','Companheiro apresentado ao lado de Pavi em Seven Havens.','pavi.jpg','havensPress','Seven Havens · material oficial'],
+ ['badgermoles','Toupeiras-texugo','mestres','Mestres da terra','Toph aprende com elas a perceber vibrações e a se relacionar com a terra.',null,'aang2','Aang · O Túnel Secreto / A Bandida Cega'],
+ ['dragons','Ran e Shaw','mestres','Dragões','Mestres originais do fogo; mostram a Aang e Zuko a vida e as cores das chamas.',null,'aang3','Aang · Os Mestres da Dobra de Fogo'],
+ ['bison','Bisões voadores','mestres','Mestres do ar','A tradição dos Nômades do Ar se conecta a esses animais; Appa é um deles.',null,'appa','Aang e Korra'],
+ ['tui-la','Tui e La','espiritos','Lua e Oceano','Assumem a forma de carpas no oásis do Norte. A Lua inspira os primeiros dobradores de água.',null,'aang1','Aang · O Cerco do Norte'],
+ ['lion-turtle','Tartarugas-leão','mestres','Guardiãs ancestrais','A história de Wan mostra a concessão dos elementos. Conceder poder difere de ensinar a arte de usá-lo.',null,'wan','Aang · Final / Korra · Beginnings'],
+ ['wan-shi-tong','Wan Shi Tong','espiritos','Guardião da biblioteca','Espírito em forma de coruja que guarda uma biblioteca de conhecimento.',null,'aang2','Aang · A Biblioteca'],
+ ['koh','Koh','espiritos','O Ladrão de Rostos','Espírito antigo encontrado por Aang em sua busca por respostas no Norte.',null,'aang1','Aang · O Cerco do Norte'],
+ ['hei-bai','Hei Bai','espiritos','Guardião da floresta','Sua fúria expõe a ligação entre dano ambiental e desequilíbrio espiritual.',null,'aang1','Aang · Solstício de Inverno'],
+ ['raava','Raava e Vaatu','espiritos','Luz e escuridão','Espíritos centrais na origem do Avatar e na Convergência Harmônica.',null,'wan','Korra · Beginnings / Livro 2']
+].map(([id,name,group,species,text,image,source,episode])=>({id,name,group,species,text,image,source,episode}));
+for(const key of Object.keys(ELEMENTS)){
+ ELEMENTS[key].techniques=BENDING.filter(t=>t.element===key).map(t=>[t.name,t.text]);
+ ELEMENTS[key].sources=[...new Set([...ELEMENTS[key].sources,'studios','rare','lessons'])];
+}
