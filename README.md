@@ -2,6 +2,17 @@
 
 Um atlas interativo em português sobre o universo de Avatar. História, quatro elementos, Avatares, personagens, técnicas de dobra, criaturas e espíritos em uma experiência visual clara e colorida.
 
+**[Explorar o site publicado →](https://atlas-avatar.vercel.app/)**
+
+![Página inicial do Atlas Avatar](docs/desktop.png)
+
+<details>
+<summary>Ver a versão mobile</summary>
+
+<img src="docs/mobile.png" alt="Página inicial em uma tela de celular" width="300">
+
+</details>
+
 ## A ideia por trás do projeto
 
 Quando comecei a estudar programação, tentei criar um site com a temática de Avatar. O resultado foi simples e o projeto não foi adiante. Este atlas retoma aquela ideia como um marco da minha evolução no desenvolvimento web: uma experiência com identidade visual, conteúdo organizado, interações e adaptação para diferentes telas.
